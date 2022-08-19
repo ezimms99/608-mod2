@@ -32,3 +32,34 @@ If Statements:
 - Remember!!! The = sign assigns a value to a name and the == sets that value as an equality operator. 
 
 If...else and if...elif...else statements: 
+- If and else are indented by the same amount
+- You can go up using up arrows and recall code used but make modifications. 
+- Conditional expressions allow you to set values equal to something with an if type statement. 
+- if...elif...else tests many different conditions and the final else condition is optional. 
+- Incorrectly indented code results in a nonfatal logic error. 
+- A fatal logic error displays a traceback and terminates the script. 
+
+While Statements: 
+- Allows you to repeat one or more actions while a condition remains true. Often called a loop. 
+- If you do not have a statement to where the condition eventually becomes false your code will get stuck in an infinite loop. 
+
+For Statements: 
+- Allows you to repeat an action or several actions and performs it for each item in a sequence. 
+- Using end='  ' adds two spaces between characters and keeps everything on the same line, without it \n would be executed each time. 
+- Sep specifies the string that appears between the items that print displays. 
+- To remove the spaces use an empty string with no characters between its quotes. 
+
+Iterables, Lists, and Iterators: 
+- Iterable: Object from which the for statement ccan take one item at a time until no more items remain. 
+- List: Comma-separated collection of items enclosed in square brackets. 
+- Iterator: Like a book-mark keeping track of where it is in the sequence. 
+
+Built-In range Function:
+- Represents a sequence of consecutive integer values starting from 0 and continuing up to but not including the argumentative value. 
+- Off-by-one error occurs when you assume range includes final number. 
+
+Augmented Assignments: 
+- Abbreviate assignment expressions in which the same variable name appears on the left and right of the assignment's =. 
+- Addition augmented assignment (+=) first adds the number's value to the current total and then stores the new value in total. 
+
+Left off at 3.10!
