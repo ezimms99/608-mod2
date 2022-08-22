@@ -83,3 +83,33 @@ Program Development: Sentinel-Controlled Repition
         - This will use two decimal places and if a number only contains one decimal a trailing 0 will follow. 
 
 Program Development: Nested Control Statements 
+- Can put an if...else statement within a for statement and it's considered to be "nested" in the loop. 
+
+Built-In Function range: A deeper Look
+- Two-argument version: Produces a sequence of consecutive integers from its first argument's value up to, but not including the second argument's value
+- Three-argument version: Produces a sequence of integers from its first argument's value up to, but not including, the second argument's value, incrementing by the third argument's value known as the step. 
+- Third-argument negative: If last value is negative the values decrease by that step. 
+
+Using Type Decimal for Monetary Amounts
+- Built in types: int(integers), float(floating point numbers like 7.5), and strings('Python'). There is not a built in decimal. 
+- Must import decimal: import decimal and refer to the decimal type as decimal.Decimal OR from decimal import Decimal. 
+- Decimal supports standard arithmetic 
+- Field width specifies the number of character positions. For example {year:>2} right aligns years to two values. You can also left alight values with <. 
+
+Break and Continue Statements: 
+- Break: In a while or for statement exits that statement. 
+- Continue: In a while or for loop skips the remainder of the loops suite. 
+
+Boolean Operators: 
+- AND: Tests if both conditions are true 
+- OR: Evaluates if one or the other conditions are true
+- Short circuit evaluation stops evaluating as soon as a condition determines the output of the function. If an AND statement 1 is false, it stops. If an OR statement 1 is true, it stops. 
+- NOT: "Reverses" the meaning of a condition, True becomes False and vise versa. This is a Unary Operator (only one operand). 
+
+Intro to Data Science: Measure of Central Tendency - Mean, Median, Mode
+- Mean: The average value in a set of values
+- Median: The middle value when all the values are arranged in sorted order
+- Mode: The most frequently occuring value
+- These are measures of central tendency - each is a way of producing a single value that represents a "central" value in a set of values. 
+- Must import statistics to use functions mean, median, and mode. 
+- To use functions: statistics.mean(DATA SET), statistics.median(DATA SET), statistics.mode(DATA SET)
