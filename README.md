@@ -62,4 +62,24 @@ Augmented Assignments:
 - Abbreviate assignment expressions in which the same variable name appears on the left and right of the assignment's =. 
 - Addition augmented assignment (+=) first adds the number's value to the current total and then stores the new value in total. 
 
-Left off at 3.10!
+Program Development: Sequence-controlled repition
+- Requirements statement: Describes what a program is supposed to do, but not how the program should do it. 
+- Pseudocode for the algorithm: Lists the actions to execute
+- Coding the Algorithm in Python: Execution phases
+        - Initialization phase: Creates the variables needed to process the grades and set variables to appropriate initial values.
+        - Processing phase: Processes the grades, calculating the running total, and counting the number of grades processed so far. 
+        - Termination phase: Calculates and displays the average. 
+- Introdution to Formatted strings: Dictated by an f'Class average is {average}'. The letter f before the string's opening quote indicates f-string. Use {} to specify values. When evaluated the program will use replacement text  to change average. 
+
+Program Development: Sentinel-Controlled Repition 
+- Sentinel value: Used to mark the end of data entry. 
+- Sentinel controlled repition is often called indefinite repition because the number of repititions is not known before the loop begins executing. 
+- Use a technique called top-down, stepwise refinement. 
+        - Begin with pseudocode at the top, displays the program's overall function
+        - Refinement process: Decompose top sequence into smaller tasks - called divide and conquer 
+            - First refinement: Not super detailed
+            - Second refinement: Commit to specific variables, define exact steps. 
+- Format specifier: Describes how to format the replacement text. Can be written as print(f'Class average is {average:.2f}')
+        - This will use two decimal places and if a number only contains one decimal a trailing 0 will follow. 
+
+Program Development: Nested Control Statements 
