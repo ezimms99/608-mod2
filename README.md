@@ -21,7 +21,7 @@ Control Statements
     - If statement (single selection), if action is true it does the action if false it skips. 
     - If...else statement (double selection), performs action if true or performs different action if false. 
     - if...elif...else statement (multiple-selection), performs one of many actions depending on truth or falsity of conditions. 
-- Repetiion Statements: Provides two repition statements: while and for:
+- Repetition Statements: Provides two repition statements: while and for:
     - While statement repeats an action as long as condition remains true
     - For repeats an action for every item in a sequence of items. 
     
